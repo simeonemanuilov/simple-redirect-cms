@@ -1,1 +1,1 @@
-#FORWARD REQUESTS TO INDEX.PHPRewriteRule .* index.php [L]
+RewriteRule .* index.php [L]
