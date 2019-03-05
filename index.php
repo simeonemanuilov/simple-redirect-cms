@@ -24,3 +24,4 @@ foreach($csv as &$row) {
 		Redirect($destination);
 	}
 }	
+Redirect($default_location);
