@@ -17,6 +17,8 @@ function Redirect($url, $permanent = true) {
 $current_request = "$_SERVER[REQUEST_URI]";
 $csv = array_map('str_getcsv', file('data.csv'));
 
+$default_location = "";
+
 foreach($csv as &$row) {
 	$request = $row[0];
 	$destination = $row[1];
